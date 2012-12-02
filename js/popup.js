@@ -42,7 +42,7 @@ $(document).ready(function(){
              search($("#wordnik"), 
                     "http://api.wordnik.com//v4/word.json/" + word + "/definitions", 
                     {
-                      'api_key' : "ff19d858a92026a7c80040a403f0b4001c3a45a9f8ae35ed0",
+                      'api_key' : "YOUR_API_KEY", //YOUR API KEYZ from wordnik.com
                       'useCanonical' : false,
                       'limit' : 1,
                       'includeTags' : false,
